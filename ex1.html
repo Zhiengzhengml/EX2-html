@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5",user-scalable=yes">
+    <title>Shinchan Homepage</title>
+</head>
+<body>
+    <header>
+        <table width="100%" border="0" cellpadding="20" cellspacing="0">
+            <tr>
+                <td align="left"><img src="assets/shin-chan-banner.jpg" alt="Shinchan Banner" width="1200"></td>
+                <td align="right"><img src="assets/naughtiest-son.jpg" alt="Shinchan Logo" width="400"></td>
+            </tr>
+        </table>
+        <center>
+            <a href="#introduction" >Shinchan: Shiro and the Coal Town Game</a> &nbsp;&nbsp;&nbsp; 
+            <a href="#character">Characters</a> &nbsp;&nbsp;&nbsp;
+            <a href="#favorite" >What's your favorite?</a>
+        </center>
+    </header>
+
+    <section id="introduction">
+        <center>
+            <h1>Shinchan:Shiro and the Coal Town</h1>
+            <h2>(Available on:Nintendo Switch and Windows PC)</h2>
+            <video width="1000" controls>
+                <source src="assets/shinchan-and-the-coal-town.mp4" type="video/mp4">
+                Your browser does not support the video.
+            </video>
+        </center>
+    </section>
+<br>
+<br>
+<br>
+    <section id="character">
+        <center>
+        <h1>The characters</h1>
+        </center>   
+        <br>
+        <table border="0" cellpadding="25" cellspacing="10" width="90%" align="center">
+        <tr align="center">
+            <td width="30%">
+                <<strong><font size="4">Shinnosuke Nohara(Shinchan)</font></strong>><br><br>
+                <img src="assets/character-shinchan.png" alt="Shinchan" width="130" height="auto"><br><br>
+                The mischievous 5-year-old protagonist known for his hilarious antics and love of choco chips.
+            </td>
+            <td width="30%">
+                <strong><font size="4">Misae Nohara(Mom)</font></strong><br><br>
+                <img src="assets/character-misae.webp" alt="Misae Nohara" width="130" height="auto"><br><br>
+                Shinchan's short-tempered but loving mother, always trying to keep him in line.
+            </td>
+            <td width="30%">
+                <strong><font size="4">Hiroshi Nohara(Dad)</font></strong><br><br>
+                <img src="assets/character-hiroshi.webp" alt="Hiroshi Nohara" width="130" height="auto"><br><br>
+                The laid-back father who works at a company and enjoys his evening beer.
+            </td>
+        </tr>
+        <tr align="center">
+            <td width="30%">
+                <strong><font size="4">Himawari(Sister)</font></strong><br><br>
+                <img src="assets/character-himawari.png" alt="Himawari" width="150" height="auto"><br><br>
+                The youngest of the Noharas. Loves shiny objects and brand-name goods. Smiles sideways, like Shinchan.
+            </td>
+            <td width="30%">
+                <font size="4">Yukino Nohara(Shiro)</font></strong><br><br>
+                <img src="assets/character-shiro.png" alt="Shiro the dog" width="130" height="auto"><br><br>
+                The family dog — small, fluffy, and sometimes the most sensible member of the household.
+            </td>
+            <td width="30%">
+                <strong><font size="4">Toru Kazama</font></strong><br><br>
+                <img src="assets/character-toru-kazama.webp" alt="Toru Kazama" width="130" height="auto"><br><br>
+                The smart and responsible friend of Shinchan, often the voice of reason in the group.
+            </td>
+        </tr>
+    </table>
+    </section>
+         
+<br>
+<br>
+<br>
+
+    <section id="favorite">
+        <hr width="80">
+        <h3>Who's your favorite?</h3>
+        <form>
+            <label for="favorite"> Who's your favorite character?</label>
+            <select id="favorite">
+                <option value="shinchan">Shinchan</option>
+                <option value="shiro">Misae Nohara</option>
+                <option value="misae">Hiroshi Nohara</option>
+                <option value="hiroshi">Himawari</option>
+                <option value="himawari">Yukino Nohara</option>
+                <option value="toru">Toru Kazama</option>
+            </select>
+        </form>
+    <br>
+        <h4>Character not in the list?Write their name below:</h4>
+        <form>
+            <label for="new-character">Your other favorite character:</label>
+            <input type="text" id="new-character" name="new-character" placeholder="Enter character name" required>
+        </form>
+    <br>
+        <form>
+            <label for="reason">Why do you like this character?</label>
+            <br>
+            <br>
+            <textarea id="reason" name="reason" rows="4" cols="80" placeholder="State your reasons in a couple of lines..."></textarea>
+        </form>
+   </section>
+ 
+    <section id="about youself">
+        <h3>Tell us a bit more about yourself</h3>
+        <form>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <br>
+            <label for="gender">Your gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="birth-date">Your Date of Birth:</label>
+            <input type="text" id="birth-date" name="birth-date" placeholder="dd.mm.yyyy" required>
+            <br>
+            <br>
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <br>
+            <button type="submit">Submit</button> 
+        </form>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <p>©2025 Programming4</p>
+        <p>Get in touch: <a href="mailto:shinnchan-lovers@justlearninghtml.com">shinnchan-lovers@justlearninghtml.com</a></p>
+    </footer>
+</body>
+
+</html>
